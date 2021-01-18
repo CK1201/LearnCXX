@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.19)
+project(homework10_1)
+add_definitions(-std=c++11)
+add_subdirectory(./lib)
+add_subdirectory(./src)

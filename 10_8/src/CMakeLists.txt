@@ -1,0 +1,5 @@
+include_directories(${PROJECT_SOURCE_DIR}/bin)
+aux_source_directory(. DIR_SRCS)
+add_executable(homework10_8 ${DIR_SRCS})
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+target_link_libraries(homework10_8 lib10_8_shared)
