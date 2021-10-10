@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "g++",
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "D:/Program Files/LLVM/bin/g++.exe",
+            "includePath": [
+                "${workspaceFolder}",
+                "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/**",                
+                "D:/Program Files/LLVM/include",
+                "D:/Program Files/LLVM/x86_64-w64-mingw32/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "D:/Program Files/LLVM/x86_64-w64-mingw32/include",
+                    "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/**",
+                    "D:/Program Files/LLVM/include/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
